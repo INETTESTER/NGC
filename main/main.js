@@ -22,18 +22,18 @@ import { all } from '../api/all.js';
 //============================================================================
 
 export default function () {    //เรียกใช้ API ใน export default function
-  response = search_bar()
-  // response = filter()
-  // response = list_order_buyer_v2()
-  // response = list_order_seller_v3()
-  // response = detail_cart_b2b_v2()
-  // response = get_cart_b2b_v2()
+  //response = search_bar()
+  //response = filter()
+  //response = list_order_buyer_v2()
+  //response = list_order_seller_v3()
+  //response = detail_cart_b2b_v2()
+  //response = get_cart_b2b_v2()
   // response = list_all_shop()
   // response = detail_landing_page()
   // response = get_status_flash_sale()
   // response = landingpage()
-  // response = listnotification()
-  // response = all()
+  //response = listnotification()
+   response = all()
   error_check(response);
   sleep(1)
 }

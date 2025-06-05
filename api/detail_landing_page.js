@@ -13,8 +13,7 @@ export  function detail_landing_page() {
     headers: {
       'Content-Type': 'application/json',
       'Cookie': `laravel_session=${__ENV.SESSION}`
-    },
-    timeout: 300000
+    }
   };
 
   const res = http.post(url, payload, params);

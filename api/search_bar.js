@@ -19,7 +19,6 @@ export function search_bar() {
             'Content-Type': 'application/json',
             'Cookie': 'laravel_session=E5f1Ziv6EBOPQ9AmZjNZNzSUW8OImqiyLAi5xYNC',
         },
-        timeout: 300000
     };
 
     const res = http.post(url, payload, params);

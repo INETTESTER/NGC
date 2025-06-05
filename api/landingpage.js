@@ -16,8 +16,7 @@ export function landingpage() {
     });
 
     const res = http.post(url, payload, {
-        headers: headers,
-        timeout: 300000,  // 300,000 ms = 300 seconds = 5 นาที
+        headers: headers
     });
 
 

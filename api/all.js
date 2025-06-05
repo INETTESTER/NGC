@@ -8,8 +8,7 @@ export function all() {
     };
 
     const res = http.get(url, {
-        headers: headers,
-        timeout: 300000, // 300,000 ms = 5 นาที
+        headers: headers
     });
 
 
