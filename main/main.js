@@ -31,9 +31,9 @@ export default function () {    //เรียกใช้ API ใน export def
   // response = list_all_shop()
   // response = detail_landing_page()
   // response = get_status_flash_sale()
-   response = landingpage()
+  // response = landingpage()
   // response = listnotification()
-  // response = all()
+   response = all()
   error_check(response);
   sleep(1)
 }

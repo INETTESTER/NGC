@@ -1,0 +1,204 @@
+{
+    "metrics": {
+        "iterations": {
+            "count": 2400,
+            "rate": 41.88205626593543
+        },
+        "iteration_duration": {
+            "avg": 51622.12344954164,
+            "min": 46631.7514,
+            "med": 52686.24885,
+            "max": 57251.1128,
+            "p(90)": 54654.4854,
+            "p(95)": 54804.013829999996
+        },
+        "http_req_waiting": {
+            "p(95)": 52577.87597,
+            "avg": 49679.94417362497,
+            "min": 45370.5381,
+            "med": 50693.877550000005,
+            "max": 52954.639,
+            "p(90)": 52521.50768
+        },
+        "http_req_connecting": {
+            "avg": 130.7144114166668,
+            "min": 70.6288,
+            "med": 130.9676,
+            "max": 209.8846,
+            "p(90)": 152.00583,
+            "p(95)": 167.30280499999998
+        },
+        "http_req_sending": {
+            "p(90)": 1.00081,
+            "p(95)": 1.0023,
+            "avg": 0.43135425000000016,
+            "min": 0,
+            "med": 0,
+            "max": 112.9979
+        },
+        "http_req_blocked": {
+            "max": 919.2518,
+            "p(90)": 772.56746,
+            "p(95)": 789.49233,
+            "avg": 504.2328272916673,
+            "min": 87.4449,
+            "med": 488.2996
+        },
+        "http_req_tls_handshaking": {
+            "p(90)": 624.49131,
+            "p(95)": 640.493485,
+            "avg": 355.27891199999976,
+            "min": 4.9987,
+            "med": 332.8841,
+            "max": 753.4914
+        },
+        "checks": {
+            "passes": 2400,
+            "fails": 26400,
+            "value": 0.08333333333333333
+        },
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 2400,
+            "value": 0
+        },
+        "data_received": {
+            "count": 75497680,
+            "rate": 1317499.2007114952
+        },
+        "http_req_duration": {
+            "max": 55941.556,
+            "p(90)": 53143.28787,
+            "p(95)": 53255.427895,
+            "avg": 50117.49701795845,
+            "min": 45373.116,
+            "med": 51217.63675
+        },
+        "http_req_receiving": {
+            "avg": 437.1214900833331,
+            "min": 0,
+            "med": 421.6565,
+            "max": 3037.612,
+            "p(90)": 831.77625,
+            "p(95)": 966.0875449999799
+        },
+        "data_sent": {
+            "count": 4374384,
+            "rate": 76336.74867366988
+        },
+        "vus_max": {
+            "value": 2400,
+            "min": 2400,
+            "max": 2400
+        },
+        "vus": {
+            "min": 1,
+            "max": 2400,
+            "value": 1
+        },
+        "http_req_duration{expected_response:true}": {
+            "max": 55941.556,
+            "p(90)": 53143.28787,
+            "p(95)": 53255.427895,
+            "avg": 50117.49701795845,
+            "min": 45373.116,
+            "med": 51217.63675
+        },
+        "http_reqs": {
+            "count": 2400,
+            "rate": 41.88205626593543
+        }
+    },
+    "root_group": {
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {},
+        "checks": {
+                "200 OK": {
+                    "fails": 0,
+                    "name": "200 OK",
+                    "path": "::200 OK",
+                    "id": "e9654c443eff553da9e69eda7007924e",
+                    "passes": 2400
+                },
+                "201 Created": {
+                    "name": "201 Created",
+                    "path": "::201 Created",
+                    "id": "728dcd977aae263ca314731145e1d447",
+                    "passes": 0,
+                    "fails": 2400
+                },
+                "204 No Content": {
+                    "name": "204 No Content",
+                    "path": "::204 No Content",
+                    "id": "54fa3c2eda34e1622fda2da5e0479fc5",
+                    "passes": 0,
+                    "fails": 2400
+                },
+                "400 Bad Request": {
+                    "name": "400 Bad Request",
+                    "path": "::400 Bad Request",
+                    "id": "eeae81934b9b58bccaf0184a6d070338",
+                    "passes": 0,
+                    "fails": 2400
+                },
+                "401 Unauthorized": {
+                    "id": "6ae9254e6aefe7f0bafe5102fa7e20a5",
+                    "passes": 0,
+                    "fails": 2400,
+                    "name": "401 Unauthorized",
+                    "path": "::401 Unauthorized"
+                },
+                "403 Forbidden": {
+                    "name": "403 Forbidden",
+                    "path": "::403 Forbidden",
+                    "id": "655548b761742c5a7ad15aa7df3a5d9c",
+                    "passes": 0,
+                    "fails": 2400
+                },
+                "404 Not Found": {
+                    "passes": 0,
+                    "fails": 2400,
+                    "name": "404 Not Found",
+                    "path": "::404 Not Found",
+                    "id": "df1528f9925ca236bac51008f77b774a"
+                },
+                "429 Too Many Requests": {
+                    "fails": 2400,
+                    "name": "429 Too Many Requests",
+                    "path": "::429 Too Many Requests",
+                    "id": "b810c35b9499cc7342fd415032e3a6aa",
+                    "passes": 0
+                },
+                "500 Internal Server Error": {
+                    "name": "500 Internal Server Error",
+                    "path": "::500 Internal Server Error",
+                    "id": "3cd96245b24e869810efe46d533b0eef",
+                    "passes": 0,
+                    "fails": 2400
+                },
+                "502 Bad Gateway": {
+                    "path": "::502 Bad Gateway",
+                    "id": "712cb0ec189a11f31f0d6d0c0031b569",
+                    "passes": 0,
+                    "fails": 2400,
+                    "name": "502 Bad Gateway"
+                },
+                "503 Service Unavailable": {
+                    "name": "503 Service Unavailable",
+                    "path": "::503 Service Unavailable",
+                    "id": "f1ea1a22be0dc738c385523a66ea1cd9",
+                    "passes": 0,
+                    "fails": 2400
+                },
+                "504 Gateway Timeout": {
+                    "path": "::504 Gateway Timeout",
+                    "id": "218efb729cb654723ccd57c6ebbebe29",
+                    "passes": 0,
+                    "fails": 2400,
+                    "name": "504 Gateway Timeout"
+                }
+            }
+    }
+}

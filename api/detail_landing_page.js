@@ -16,6 +16,6 @@ export function detail_landing_page() {
   });
 
   const res = http.post(url, payload, { headers });
-  console.log(res.body); // log response body
+  //console.log(res.body); // log response body
   return res; // return response
 }
